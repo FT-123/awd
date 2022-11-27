@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery1.css">
+    <link rel="stylesheet" href="clock.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <header class="header">
+        <div class="container">
+            <div class="popup">
+                <img id="hamicon" onclick="myFunction()" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="Hamburger_icon">
+                <div class="popuptext" id="myPopup">
+                    <a id="nav1" onclick="switchFunction()">Motherboard</a>
+                    <a id="nav2" href="about.html">About us</a>
+                    <a id="nav3" href="error.html">error example</a>
+                    <a id="nav4">Надо придумать</a>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="search">
+                   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                   </button>
+                </div>
+            </div>
+            <div class="clock" aria-label="00:00:00 AM">
+                <div class="clock__block clock__block--delay2" aria-hidden="true" data-time-group>
+                    <div class="clock__digit-group">
+                        <div class="clock__digits" data-time="a">00</div>
+                        <div class="clock__digits" data-time="b">00</div>
+                    </div>
+                </div>
+                <div class="clock__colon"></div>
+                <div class="clock__block clock__block--delay1" aria-hidden="true" data-time-group>
+                    <div class="clock__digit-group">
+                        <div class="clock__digits" data-time="a">00</div>
+                        <div class="clock__digits" data-time="b">00</div>
+                    </div>
+                </div>
+                <div class="clock__colon"></div>
+                <div class="clock__block" aria-hidden="true" data-time-group>
+                    <div class="clock__digit-group">
+                        <div class="clock__digits" data-time="a">00</div>
+                        <div class="clock__digits" data-time="b">00</div>
+                    </div>
+                </div>
+                <div class="clock__block clock__block--delay2 clock__block--small" aria-hidden="true" data-time-group>
+                    <div class="clock__digit-group">
+                        <div class="clock__digits" data-time="a">PM</div>
+                        <div class="clock__digits" data-time="b">PM</div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <section class="gallery1">
+        <div class="container">
+            <div class="image-container" id="galleryMother">
+                <span style="--i: 1">
+                    <img id="mother1" src="img/1.png" alt="" />
+                </span>
+                <span style="--i: 2">
+                    <img id="mother2" src="img/2.png" alt="" />
+                </span>
+                <span style="--i: 3">
+                    <img id="mother3" src="img/3.png" alt="" />
+                </span>
+                <span style="--i: 4">
+                    <img id="mother4" src="img/4.png" alt="" />
+                </span>
+                <span style="--i: 5">
+                    <img id="mother5" src="img/5.png" alt="" />
+                </span>
+                <span style="--i: 6">
+                    <img id="mother6" src="img/6.png" alt="" />
+                </span>
+                <span style="--i: 7">
+                    <img id="mother7" src="img/7.png" alt="" />
+                </span>
+                <span style="--i: 8">
+                    <img id="mother8" src="img/8.png" alt="" />
+                </span>
+            </div>
+        </div>
+    
+    </section>
+    <section class="bottom">
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>

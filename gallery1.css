@@ -1,0 +1,74 @@
+.gallery1 {
+    visibility: hidden;
+}
+
+.gallery1 .showGallery1 {
+    visibility: visible;
+}
+
+.image-container {
+    position: relative;
+    width: 10%;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 3s;
+    left: 50%;
+  }
+  
+  .image-container span {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 150px;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+  }
+  
+  .image-container span img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+#mother1 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother2 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother3 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother4 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother5 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother6 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother7 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+#mother8 {
+    width: 250px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
